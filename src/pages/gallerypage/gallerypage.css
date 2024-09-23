@@ -4,7 +4,7 @@
   padding: 10px;
 }
 .colorful-bar-gallery {
-  background: linear-gradient(90deg, #0b2f9f 0%, #98ded9 100%);
+  background: linear-gradient(90deg, #0b2f9f 0%, #3327e6 100%);
   height: 150px;
   display: flex;
   justify-content: center;
@@ -12,15 +12,28 @@
   margin-bottom: 40px;
   border-radius: 10px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  color: #ffff;
 }
 .section_hero {
   margin-bottom: 40px;
   text-align: center;
   padding: 50px;
-  background: url("../../../public/gallery.jpg") no-repeat center center/cover;
+  background-color: transparent;
   color: cornsilk;
 }
-
+.global-reach-gallery {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 5px;
+  margin-top: 40px;
+}
+.global-reach-gallery img {
+  width: 100%;
+  height: 300px;
+  overflow: hidden;
+  object-fit: cover;
+}
 .section_hero img {
   width: 100%;
   height: 600px;
@@ -79,7 +92,7 @@
   background: #f0f8ff;
   padding: 30px;
   border-radius: 10px;
-  text-align: center;
+  text-align: start;
 }
 
 .company-overview h2 {
@@ -90,4 +103,9 @@
 .company-overview p {
   margin: 10px 0;
   line-height: 1.6;
+}
+@media (max-width: 768px) {
+  .global-reach-gallery {
+    flex-direction: column;
+  }
 }

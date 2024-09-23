@@ -6,7 +6,7 @@
   min-height: 70vh;
 }
 .colorful-bar-product {
-  background: linear-gradient(90deg, #0b2f9f 0%, #98ded9 100%);
+  background: linear-gradient(90deg, rgb(11, 44, 100, 0.8) 0%, #2015c5 100%);
   height: 150px;
   display: flex;
   justify-content: center;
@@ -14,6 +14,7 @@
   margin-bottom: 40px;
   border-radius: 10px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  color: #ffff;
 }
 
 header h1 {
@@ -25,22 +26,23 @@ header h1 {
 
 .category-filter {
   display: flex;
-  justify-content: center;
   margin-bottom: 20px;
+  justify-content: end;
 }
 
 .category-filter button {
   padding: 10px 20px;
   margin: 0 10px;
-  background-color: #00a8ff;
+  background-color: rgba(11, 44, 100, 0.8);
   color: #fff;
-  border: none;
+  box-shadow: 5px rgba(11, 44, 100, 0.8);
   cursor: pointer;
   transition: background-color 0.3s ease;
+  border-radius: 25%;
 }
 
 .category-filter button:hover {
-  background-color: #005f99;
+  background-color: #1f4fe0;
 }
 
 .category-details {
@@ -86,7 +88,7 @@ header h1 {
   width: 100%;
   height: 200px;
   object-fit: cover;
-  border-radius: 10px;
+  border-radius: 50%;
   margin-bottom: 15px;
 }
 
@@ -109,7 +111,7 @@ header h1 {
 .subcategory-filter button {
   padding: 8px 16px;
   margin: 0 8px;
-  background-color: #00a8ff;
+  background-color: #0b2f9f;
   color: #fff;
   border: none;
   cursor: pointer;
@@ -117,7 +119,7 @@ header h1 {
 }
 
 .subcategory-filter button:hover {
-  background-color: #005f99;
+  background-color: #0b2f9f;
 }
 
 @media (max-width: 768px) {

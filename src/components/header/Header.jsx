@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import { Link, useLocation, useNavigate } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars, faTimes } from "@fortawesome/free-solid-svg-icons";
-import { faWhatsapp } from "@fortawesome/free-brands-svg-icons";
+import { faDiscourse } from "@fortawesome/free-brands-svg-icons";
 import { useSpring, animated } from "@react-spring/web";
 import "./header.css";
 import Logo from "../../assets/images/Logo.png";
@@ -71,7 +71,7 @@ const Header = ({ isMenuOpen, toggleMenu }) => {
               onClick={() => handleLinkClick("/")}
               className={activeLink === "/" ? "highlighted" : ""}
             >
-              Home
+              HOME
             </Link>
           </li>
           <li>
@@ -80,7 +80,7 @@ const Header = ({ isMenuOpen, toggleMenu }) => {
               onClick={() => handleLinkClick("/about")}
               className={activeLink === "/about" ? "highlighted" : ""}
             >
-              About Us
+              ABOUT US
             </Link>
           </li>
           <li>
@@ -89,7 +89,7 @@ const Header = ({ isMenuOpen, toggleMenu }) => {
               onClick={() => handleLinkClick("/products")}
               className={activeLink === "/products" ? "highlighted" : ""}
             >
-              Our Products
+              OUR PRODUCTS
             </Link>
           </li>
           <li>
@@ -98,7 +98,7 @@ const Header = ({ isMenuOpen, toggleMenu }) => {
               onClick={() => handleLinkClick("/gallery")}
               className={activeLink === "/gallery" ? "highlighted" : ""}
             >
-              Gallery
+              OUR FARM
             </Link>
           </li>
           <li>
@@ -107,18 +107,18 @@ const Header = ({ isMenuOpen, toggleMenu }) => {
               onClick={() => handleLinkClick("/contact")}
               className={activeLink === "/contact" ? "highlighted" : ""}
             >
-              Contact
+              CONTACT
             </Link>
           </li>
         </ul>
       </animated.nav>
       <a
-        href="https://wa.me/+94711575356"
+        href="https://wa.me/+94726001919"
         className="whatsapp-button"
         target="_blank"
         rel="noopener noreferrer"
       >
-        <FontAwesomeIcon icon={faWhatsapp} />
+        <FontAwesomeIcon icon={faDiscourse} />
       </a>
       <button className="menu-toggle" onClick={toggleMenu}>
         <FontAwesomeIcon icon={isMenuOpen ? faTimes : faBars} />

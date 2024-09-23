@@ -52,28 +52,17 @@ const ContactPage = () => {
           className="details-container"
         >
           <animated.div style={fadeIn} className="colorful-bar-contact">
-            <h1>GET IN TOUCH</h1>
+            <h1>CONTACT US</h1>
           </animated.div>
           <p>
-            <strong>Address:</strong> Andiyagala, Kekirawa, Sri Lanka
+            <strong>Address:</strong> Habarana Road, Dambulla, Sri Lanka
           </p>
           <p>
-            <strong>Phone:</strong> +94 71 157 5356 / +94 71 412 3116
+            <strong>Phone:</strong> +94 72 6001 919 / +94 66 2000 200
           </p>
           <p>
-            <strong>Email:</strong> bluewaveaquafarm@gmail.com
+            <strong>Email:</strong> aquabloomfishfarm@gmail.com
           </p>
-        </animated.div>
-        <animated.div style={mapAnimation} className="map-container">
-          <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5588.891711464349!2d80.51803392491558!3d7.901000291548829!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3afcb974777f1f19%3A0xeefef16dbd8e774d!2sAndiyagala!5e0!3m2!1sen!2slk!4v1725076905062!5m2!1sen!2slk"
-            width="100%"
-            height="400"
-            style={{ border: 0 }}
-            allowFullScreen=""
-            loading="lazy"
-            title="Company Location"
-          ></iframe>
         </animated.div>
       </section>
 
@@ -83,11 +72,11 @@ const ContactPage = () => {
           onSubmit={handleSubmit}
           className="form-container"
         >
-          <h2>Send Us a Message</h2>
+          <h2> Message</h2>
           <input
             type="text"
             name="name"
-            placeholder="Your Name"
+            placeholder="NAME"
             value={formData.name}
             onChange={handleChange}
             required
@@ -95,19 +84,19 @@ const ContactPage = () => {
           <input
             type="email"
             name="email"
-            placeholder="Your Email"
+            placeholder="EMAIL"
             value={formData.email}
             onChange={handleChange}
             required
           />
           <textarea
             name="message"
-            placeholder="Your Message"
+            placeholder="MESSAGE"
             value={formData.message}
             onChange={handleChange}
             required
           ></textarea>
-          <button type="submit">Send Message</button>
+          <button type="submit">Send</button>
         </animated.form>
       </section>
 

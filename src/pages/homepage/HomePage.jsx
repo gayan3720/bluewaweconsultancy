@@ -12,6 +12,9 @@ import slider3 from "../../assets/images/homepagesliderimages/slider3.jpg";
 import slider4 from "../../assets/images/homepagesliderimages/slider4.jpg";
 import slider5 from "../../assets/images/homepagesliderimages/slider5.jpg";
 import slider6 from "../../assets/images/homepagesliderimages/slider6.jpg";
+import slider7 from "../../assets/images/homepagesliderimages/slider7.jpg";
+import slider8 from "../../assets/images/homepagesliderimages/slider8.jpg";
+import Home from "../../assets/images/homepagesliderimages/Home.webp";
 import { useCountUp } from "../../hooks/usecountup/useCountUp";
 import fishline1 from "../../assets/images/fishes line/fishline1.jpg";
 import fishline2 from "../../assets/images/fishes line/fishline2.jpg";
@@ -21,10 +24,6 @@ import fishline5 from "../../assets/images/fishes line/fishline5.jpg";
 import fishline6 from "../../assets/images/fishes line/fishline6.jpg";
 
 const HomePage = () => {
-  const { number: customersServed, ref: customersRef } = useCountUp(5000);
-  const { number: fishSold, ref: fishRef } = useCountUp(10000);
-  const { number: countriesServiced, ref: countriesRef } = useCountUp(5);
-
   useEffect(() => {
     const handleMouseMove = (e) => {
       const images = document.querySelectorAll(".animated-divider img");
@@ -58,9 +57,11 @@ const HomePage = () => {
     { src: slider1, alt: "Slider 1" },
     { src: slider2, alt: "Slider 2" },
     { src: slider3, alt: "Slider 3" },
-    { src: slider4, alt: "Slider 3" },
-    { src: slider5, alt: "Slider 3" },
-    { src: slider6, alt: "Slider 3" },
+    { src: slider4, alt: "Slider 4" },
+    { src: slider5, alt: "Slider 5" },
+    { src: slider6, alt: "Slider 6" },
+    { src: slider7, alt: "Slider 7" },
+    { src: slider8, alt: "Slider 8" },
   ];
 
   return (
@@ -74,96 +75,87 @@ const HomePage = () => {
               </div>
             ))}
           </Slider>
+          <div className="middle-div">
+            <h2>Welcome to Aqua Bloom Fish Farm</h2>
+            <div className="middle-div-h3">
+              <h3>Breeder and Supplier of Fresh Water Ornamental Fish</h3>
+            </div>
+          </div>
         </section>
-
-        <div className="colorful-divider"></div>
 
         <ScrollReveal>
           <section className="mission-vision">
             <div className="mission">
-              <h2>Our Mission</h2>
+              <h2>OUR MISSION</h2>
               <p>
-                To sustainably produce high quality ornamental and freshwater
-                fish and aquatic products through innovative and eco-friendly
-                aquaculture practices
+                We always focus on the quality of our fish in all processes of
+                fish breeding to packaging, and we have an eco-friendly and
+                hygienic environment to maintain our quality standards to come
+                out with colorful, healthy and stronger fish lives. We have
+                developed new fish varieties and through continuous research and
+                development we focus on offering new fish species to our buyers.
               </p>
             </div>
             <div className="vision">
-              <h2>Our Vision</h2>
+              <h2>OUR VISION</h2>
               <p>
-                To be a leading provider of best live aquatic products,
-                recognized for sustainability, quality and innovation in
-                aquaculture.
+                To become the most recognized fish farm breeder and supplier by
+                continuously offering the highest quality ornamental fish to the
+                market.
               </p>
             </div>
           </section>
-        </ScrollReveal>
 
-        <div className="animated-divider">
-          <img src={fishline1} alt="fishline1" />
-          <img src={fishline2} alt="fishline2" />
-          <img src={fishline3} alt="Icon 3" />
-          <img src={fishline4} alt="Icon 3" />
-          <img src={fishline5} alt="Icon 3" />
-          <img src={fishline6} alt="Icon 3" />
-        </div>
-
-        <ScrollReveal>
-          <section className="achievements">
-            <div className="achievement-item" ref={customersRef}>
-              <h3>Customers Served</h3>
-              <p className="achievement-number">
-                <animated.span>
-                  {customersServed.to((n) => Math.floor(n).toLocaleString())}
-                </animated.span>
-                +
-              </p>
+          <section className="mission-vision">
+            <div className="core-val">
+              <h1>CORE VALUES</h1>
+              <br />
+              <br />
+              <h3>
+                Aqua Bloom Fish Farm values and respects it's business ethic and
+                customer centric practices to perform a trade with
+              </h3>
+              <br />
+              <p>→ INTEGRITY</p>
+              <span>&nbsp;&nbsp;&nbsp;&nbsp;Know and do what is right.</span>
+              <p>→ RESPECT </p>
+              <span>
+                &nbsp;&nbsp;&nbsp;&nbsp;Treating others, the way you want to be
+                treated.
+              </span>
+              <p>→ RESPONSIBILITY</p>
+              <span>
+                &nbsp;&nbsp;&nbsp;&nbsp;Embrace opportunities to contribute.
+              </span>
+              <p>→ CUSTOMER-CENTRIC</p>
+              <span>
+                &nbsp;&nbsp;&nbsp;&nbsp;Be customer oriented, adhering to their
+                requirements.
+              </span>
+              <p>→ LEADERSHIP </p>
+              <span>
+                &nbsp;&nbsp;&nbsp;&nbsp;To perform and deal with the common
+                good.
+              </span>
             </div>
-            <div className="achievement-item" ref={fishRef}>
-              <h3>Fish Sold</h3>
-              <p className="achievement-number">
-                <animated.span>
-                  {fishSold.to((n) => Math.floor(n).toLocaleString())}
-                </animated.span>
-                +
-              </p>
-            </div>
-            <div className="achievement-item" ref={countriesRef}>
-              <h3>Cities Serviced</h3>
-              <p className="achievement-number">
-                <animated.span>
-                  {countriesServiced.to((n) => Math.floor(n))}
-                </animated.span>
-                +
-              </p>
+            <div className="core-val-img">
+              <animated.img src={Home} alt={"home"} className="animated-img" />
             </div>
           </section>
         </ScrollReveal>
 
         <ScrollReveal>
           <section className="about-preview">
-            <h2>About Bluewave Aqua Farm</h2>
+            <h2>About Aqua Bloom Fish Farm</h2>
             <p>
-              Bluewave Aqua Farm is the first ever ornamental fish and
-              freshwater fish distributor in Sri Lanka which has been trading
-              high quality freshwater and ornamental fish species, and aquatic
-              plants to the market since 2020. The presence of Bluewave Aqua
-              Farm in the local market for 4 years has enabled the company to
-              acquire a plethora of experience, technical know-how and the
-              mastery over the trade in order to deliver high grade live
-              ornamental aquatic products to its customers all over the Sri
-              Lanka. Strict quality assurance and trust have helped Bluewave
-              Aqua Farm retain its existing customer base and expand its
-              business to new vistas.
+              Aqua Bloom Fish Farm has placed more thought and focuses on
+              producing better quality of breeds that enables colorful, healthy
+              strong varieties of fishes. Our farm has the capacity to provide
+              better, larger quantities of fish that are based on market
+              research and demand.
             </p>
             <br />
-            <p>
-              Bluewave Aqua Farm has two farms that cultivate ornamental fish
-              and freshwater fish, span across 3 hectares that is located in
-              Andiyagala, Kekirawa, Sri Lanka Customer satisfaction is hundred
-              percent guaranteed and the delivery is assured within seven days
-              of placing of the order.
-            </p>
+            <p></p>
           </section>
         </ScrollReveal>
       </div>

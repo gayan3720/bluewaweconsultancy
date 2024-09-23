@@ -25,18 +25,11 @@ export const filterImage = (images, name) => {
 const ProductsPage = () => {
   const [selectedCategory, setSelectedCategory] = useState("all");
   const [selectedSubcategory, setSelectedSubcategory] = useState("");
-  const [isFreshWaterFishModalOpen, setIsFreshWaterFishModalOpen] =
-    useState(false);
+
   const [isOrnamentalFishModalOpen, setIsOrnamentalFishModalOpen] =
     useState(false);
 
   const categories = {
-    freshWaterFish: [
-      { name: "Indian Carps", description: "Fresh Water Fish" },
-      { name: "Common Carps", description: "Fresh Water Fish" },
-      { name: "Chinese Carps", description: "Fresh Water Fish" },
-      { name: "Thilapi", description: "Fresh Water Fish" },
-    ],
     ornamentalFish: [
       { name: "Guppy", description: "Ornamental Fish" },
       { name: "Gourami", description: "Ornamental Fish" },
@@ -54,18 +47,6 @@ const ProductsPage = () => {
   };
 
   const products = [
-    { id: 1, name: "Catla Fingerlings", category: "Indian Carps" },
-    { id: 2, name: "Mirigal Fingerlings", category: "Indian Carps" },
-    { id: 3, name: "Rohu Fingerlings", category: "Indian Carps" },
-
-    { id: 4, name: "Big Head Carp Fingerlings", category: "Chinese Carps" },
-    { id: 5, name: "Grass Carp Fingerlings", category: "Chinese Carps" },
-    { id: 6, name: "Silver Carp Fingerlings", category: "Chinese Carps" },
-
-    { id: 7, name: "Common Carp Fingerlings", category: "Common Carps" },
-
-    { id: 8, name: "Thilapi", category: "Thilapi" },
-
     { id: 10, name: "Black Angel", category: "Angel" },
     { id: 11, name: "Black Marbal Angel", category: "Angel" },
     { id: 12, name: "Blue Angel", category: "Angel" },
@@ -141,12 +122,7 @@ const ProductsPage = () => {
 
   const handleCategoryChange = (category) => {
     setSelectedCategory(category);
-    if (category === "freshWaterFish") {
-      setIsFreshWaterFishModalOpen(true);
-    } else {
-      setSelectedSubcategory("");
-      setIsFreshWaterFishModalOpen(false);
-    }
+
     if (category === "ornamentalFish") {
       setIsOrnamentalFishModalOpen(true);
     } else {
@@ -157,19 +133,11 @@ const ProductsPage = () => {
 
   const handleSubcategoryChange = (subcategory) => {
     setSelectedSubcategory(subcategory);
-    setIsFreshWaterFishModalOpen(false); // Close modal after selection
     setIsOrnamentalFishModalOpen(false);
   };
 
   const filteredProducts = products.filter((product) => {
     if (selectedCategory === "all") return true;
-
-    if (
-      selectedCategory === "freshWaterFish" &&
-      selectedSubcategory !== "all"
-    ) {
-      return product.category === selectedSubcategory;
-    }
 
     if (
       selectedCategory === "ornamentalFish" &&
@@ -210,11 +178,7 @@ const ProductsPage = () => {
           <AnimatedButton onClick={() => handleCategoryChange("all")}>
             All
           </AnimatedButton>
-          <AnimatedButton
-            onClick={() => handleCategoryChange("freshWaterFish")}
-          >
-            Fresh Water Fish
-          </AnimatedButton>
+
           <AnimatedButton
             onClick={() => handleCategoryChange("ornamentalFish")}
           >
@@ -225,27 +189,6 @@ const ProductsPage = () => {
           </AnimatedButton>
         </div>
 
-        <Modal
-          isOpen={isFreshWaterFishModalOpen}
-          onClose={() => setIsFreshWaterFishModalOpen(false)}
-        >
-          <h3>Select a Subcategory:</h3>
-          <ul className="subcategory-list">
-            {categories.freshWaterFish.map((sub, index) => (
-              <li key={index}>
-                <label>
-                  <input
-                    type="radio"
-                    name="subcategory"
-                    value={sub.name}
-                    onChange={() => handleSubcategoryChange(sub.name)}
-                  />
-                  {sub.name}
-                </label>
-              </li>
-            ))}
-          </ul>
-        </Modal>
         <Modal
           isOpen={isOrnamentalFishModalOpen}
           onClose={() => setIsOrnamentalFishModalOpen(false)}
@@ -270,9 +213,7 @@ const ProductsPage = () => {
 
         <div className="category-details">
           <animated.h2 style={headerSpring}>
-            {selectedCategory === "freshWaterFish"
-              ? "Fresh Water Fish"
-              : selectedCategory === "ornamentalFish"
+            {selectedCategory === "ornamentalFish"
               ? "Ornamental Fish"
               : selectedCategory === "aquaticPlants"
               ? "Aquatic Plants"
