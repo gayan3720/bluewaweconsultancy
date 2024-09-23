@@ -51,6 +51,25 @@ import yellowglowtetra from "./assets/images/productspage/ornamental fish/tetra/
 import anubiasbarteri from "./assets/images/productspage/aquatic plants/anubiasbarteri.webp";
 import rotellaaquaticplant from "./assets/images/productspage/aquatic plants/rotellaaquaticplant.webp";
 import staurogynerepense from "./assets/images/productspage/aquatic plants/staurogynerepense.jpg";
+import butterflybetta from "./assets/images/productspage/ornamental fish/betta/butterflybetta.webp";
+import bycoloursbetta from "./assets/images/productspage/ornamental fish/betta/bycoloursbetta.png";
+import marblebetta from "./assets/images/productspage/ornamental fish/betta/marblebetta.webp";
+import solidcolorbetta from "./assets/images/productspage/ornamental fish/betta/solidcolorbetta.webp";
+import honeygourami from "./assets/images/productspage/ornamental fish/gourami/HONEY Gourami.jpg";
+import neonbluedwarfgourami from "./assets/images/productspage/ornamental fish/gourami/Neon Blue Dwarf Gourami.jpg";
+import pearlgourami from "./assets/images/productspage/ornamental fish/gourami/PEARL Gourami.jpg";
+import reddwarfgourami from "./assets/images/productspage/ornamental fish/gourami/Red Dwarf Gourami.jpg";
+import redhoneygourami from "./assets/images/productspage/ornamental fish/gourami/Red Honey Gourami.jpg";
+import albinooscar from "./assets/images/productspage/ornamental fish/oscar/Albino Oscar.jpg";
+import lemonoscar from "./assets/images/productspage/ornamental fish/oscar/LEMON OSCAR.jpg";
+import redoscar from "./assets/images/productspage/ornamental fish/oscar/RED OSCAR.jpg";
+import wildoscar from "./assets/images/productspage/ornamental fish/oscar/WILD OSCAR.jpg";
+import asagikoi from "./assets/images/productspage/ornamental fish/koicarp/asagi koi.jpg";
+import bekkokoi from "./assets/images/productspage/ornamental fish/koicarp/bekko koi.png";
+import kahakukoi from "./assets/images/productspage/ornamental fish/koicarp/kohaku koi.jpg";
+import koromokoi from "./assets/images/productspage/ornamental fish/koicarp/Koromo Koi.jpeg";
+import showasanshokukoi from "./assets/images/productspage/ornamental fish/koicarp/Showa Sanshoku Koi.jpg";
+import tanchokoi from "./assets/images/productspage/ornamental fish/koicarp/tancho koi.jpg";
 
 export const productImages = {
   bigheadcarpfingerlings: bigheadcarpfingerlings,
@@ -106,4 +125,23 @@ export const productImages = {
   anubiasbarteri: anubiasbarteri,
   rotellaaquaticplant: rotellaaquaticplant,
   staurogynerepense: staurogynerepense,
+  butterflybetta: butterflybetta,
+  bycoloursbetta: bycoloursbetta,
+  marblebetta: marblebetta,
+  solidcolorbetta: solidcolorbetta,
+  honeygourami: honeygourami,
+  neonbluedwarfgourami: neonbluedwarfgourami,
+  pearlgourami: pearlgourami,
+  reddwarfgourami: reddwarfgourami,
+  redhoneygourami: redhoneygourami,
+  albinooscar: albinooscar,
+  lemonoscar: lemonoscar,
+  redoscar: redoscar,
+  wildoscar: wildoscar,
+  asagikoi: asagikoi,
+  bekkokoi: bekkokoi,
+  kahakukoi: kahakukoi,
+  koromokoi: koromokoi,
+  showasanshokukoi: showasanshokukoi,
+  tanchokoi: tanchokoi,
 };
