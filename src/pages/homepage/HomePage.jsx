@@ -15,6 +15,7 @@ import slider6 from "../../assets/images/homepagesliderimages/slider6.jpg";
 import slider7 from "../../assets/images/homepagesliderimages/slider7.jpg";
 import slider8 from "../../assets/images/homepagesliderimages/slider8.jpg";
 import Home from "../../assets/images/homepagesliderimages/Home.webp";
+import MainImage from "../../assets/images/homepagesliderimages/MainImage.png";
 
 const HomePage = () => {
   useEffect(() => {
@@ -149,6 +150,11 @@ const HomePage = () => {
             </p>
             <br />
             <p></p>
+          </section>
+        </ScrollReveal>
+        <ScrollReveal>
+          <section className="main-image">
+            <img src={MainImage} alt="main" />
           </section>
         </ScrollReveal>
       </div>

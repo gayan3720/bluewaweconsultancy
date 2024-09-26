@@ -317,102 +317,102 @@ const ProductsPage = () => {
     {
       id: 116,
       name: "APEX Fish Food",
-      category: "Fish Seed",
+      category: "Fish Feed",
     },
     {
       id: 117,
       name: "Hikari Algae Wafer",
-      category: "Fish Seed",
+      category: "Fish Feed",
     },
     {
       id: 118,
       name: "Hikari Cichlid Bio Gold",
-      category: "Fish Seed",
+      category: "Fish Feed",
     },
     {
       id: 119,
       name: "Hikari Discuss Bio Gold",
-      category: "Fish Seed",
+      category: "Fish Feed",
     },
     {
       id: 120,
       name: "Hikari Micro Pellets",
-      category: "Fish Seed",
+      category: "Fish Feed",
     },
     {
       id: 121,
       name: "Hikari Micro Wafers",
-      category: "Fish Seed",
+      category: "Fish Feed",
     },
     {
       id: 122,
       name: "Hikari Shrimp Cuisine",
-      category: "Fish Seed",
+      category: "Fish Feed",
     },
     {
       id: 123,
       name: "Hikari Sinking Carnivore Pellets",
-      category: "Fish Seed",
+      category: "Fish Feed",
     },
     {
       id: 124,
       name: "Hikari Sinking Wafer",
-      category: "Fish Seed",
+      category: "Fish Feed",
     },
     {
       id: 125,
       name: "Hikari Vibra Bites",
-      category: "Fish Seed",
+      category: "Fish Feed",
     },
     {
       id: 126,
       name: "Hikari Food Stick 57g",
-      category: "Fish Seed",
+      category: "Fish Feed",
     },
     {
       id: 127,
       name: "Planatopia Neobits",
-      category: "Fish Seed",
+      category: "Fish Feed",
     },
     {
       id: 128,
       name: "Planatopia NutriBites",
-      category: "Fish Seed",
+      category: "Fish Feed",
     },
     {
       id: 129,
       name: "Planatopia NutriBits",
-      category: "Fish Seed",
+      category: "Fish Feed",
     },
     {
       id: 130,
       name: "Planatopia NutriGold",
-      category: "Fish Seed",
+      category: "Fish Feed",
     },
     {
       id: 131,
       name: "Planatopia Shrimp Feast",
-      category: "Fish Seed",
+      category: "Fish Feed",
     },
     {
       id: 132,
       name: "Ultra Fresh Carnvorus Jumbo Sticks",
-      category: "Fish Seed",
+      category: "Fish Feed",
     },
     {
       id: 133,
       name: "Ultra Fresh Royal Cichlid Premium",
-      category: "Fish Seed",
+      category: "Fish Feed",
     },
     {
       id: 134,
       name: "Ultra Fresh Tropical Exellent Bites",
-      category: "Fish Seed",
+      category: "Fish Feed",
     },
     {
       id: 135,
       name: "Ultra Fresh Tropical Micro Pellets",
-      category: "Fish Seed",
+      category: "Fish Feed",
     },
     {
       id: 136,
@@ -525,8 +525,8 @@ const ProductsPage = () => {
     ) {
       return product.category === "Filters & Filter Media";
     }
-    if (selectedCategory === "fishSeed" && selectedSubcategory !== "all") {
-      return product.category === "Fish Seed";
+    if (selectedCategory === "fishFeed" && selectedSubcategory !== "all") {
+      return product.category === "Fish Feed";
     }
     if (
       selectedCategory === "waterTreatmentAndMedicine" &&
@@ -587,8 +587,8 @@ const ProductsPage = () => {
           >
             Filters & Filter Media
           </AnimatedButton>
-          <AnimatedButton onClick={() => handleCategoryChange("fishSeed")}>
-            Fish Seed
+          <AnimatedButton onClick={() => handleCategoryChange("fishFeed")}>
+            Fish Feed
           </AnimatedButton>
           <AnimatedButton
             onClick={() => handleCategoryChange("waterTreatmentAndMedicine")}

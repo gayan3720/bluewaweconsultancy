@@ -32,9 +32,8 @@ const AboutPage = () => {
             </p>
             <p>
               Our popular breeds sought out in export market are Guppy varieties
-              (over 50) and numerous varieties of Sward tail and Platy, glowing
-              healthy-looking Angel, Molly, Gourami, Barb, Tetra, Discus, Carp
-              and Gold fish are popular addition to the list.
+              (over 50) and numerous varieties of Platy, Gourami, Tetra, Koi
+              Carp, Betta, and Oscar are popular addition to the list.
             </p>
             <br />
             <p>
@@ -59,6 +58,12 @@ const AboutPage = () => {
               outstanding, guaranteed product quality, personal service and
               efficient delivery. Our commitment to our customers will be
               reflected through honest and responsible business dealings.
+            </p>
+            <br />
+            <p>
+              Our Farm offers a wide range of Aquascaping items with best
+              quality, together with the greatest support and pricing in the
+              industry.
             </p>
             <br />
           </section>
