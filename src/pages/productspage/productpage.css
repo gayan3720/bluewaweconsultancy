@@ -136,4 +136,8 @@ header h1 {
   .category-filter button {
     margin-bottom: 10px;
   }
+  .product-card img {
+    border-radius: 10%;
+    height: 250px;
+  }
 }
