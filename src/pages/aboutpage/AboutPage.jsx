@@ -57,13 +57,9 @@ const AboutPage = () => {
               and hope to communicate our appreciation to them through our
               outstanding, guaranteed product quality, personal service and
               efficient delivery. Our commitment to our customers will be
-              reflected through honest and responsible business dealings.
-            </p>
-            <br />
-            <p>
-              Our Farm offers a wide range of Aquascaping items with best
-              quality, together with the greatest support and pricing in the
-              industry.
+              reflected through honest and responsible business dealings. Our
+              Farm offers a wide range of Aquascaping items with best quality,
+              together with the greatest support and pricing in the industry.
             </p>
             <br />
           </section>
