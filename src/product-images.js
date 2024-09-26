@@ -122,8 +122,8 @@ import hikarisinkingwafer from "./assets/images/productspage/products/fishseed/H
 import hikarivibrabites from "./assets/images/productspage/products/fishseed/Hikari Vibra Bites.webp";
 import hikarifoodstick57g from "./assets/images/productspage/products/fishseed/Hikari-Food-Stick-57g.webp";
 import planatopianeobits from "./assets/images/productspage/products/fishseed/Planatopia Neobits.webp";
-import planatopianutriBites from "./assets/images/productspage/products/fishseed/Planatopia NutriBites.webp";
-import planatopianutriBits from "./assets/images/productspage/products/fishseed/Planatopia NutriBits.webp";
+import planatopianutribites from "./assets/images/productspage/products/fishseed/Planatopia NutriBites.webp";
+import planatopianutribits from "./assets/images/productspage/products/fishseed/Planatopia NutriBits.webp";
 import planatopianutrigold from "./assets/images/productspage/products/fishseed/Planatopia NutriGold.webp";
 import planatopiashrimpfeast from "./assets/images/productspage/products/fishseed/Planatopia Shrimp Feast.webp";
 import ultrafreshcarnvorusjumbosticks from "./assets/images/productspage/products/fishseed/Ultra Fresh Carnvorus jumbo sticks.webp";
@@ -272,8 +272,8 @@ export const productImages = {
   hikarivibrabites: hikarivibrabites,
   hikarifoodstick57g: hikarifoodstick57g,
   planatopianeobits: planatopianeobits,
-  planatopianutriBites: planatopianutriBites,
-  planatopianutriBits: planatopianutriBits,
+  planatopianutribites: planatopianutribites,
+  planatopianutribits: planatopianutribits,
   planatopianutrigold: planatopianutrigold,
   planatopiashrimpfeast: planatopiashrimpfeast,
   ultrafreshcarnvorusjumbosticks: ultrafreshcarnvorusjumbosticks,
