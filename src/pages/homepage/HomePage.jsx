@@ -15,13 +15,6 @@ import slider6 from "../../assets/images/homepagesliderimages/slider6.jpg";
 import slider7 from "../../assets/images/homepagesliderimages/slider7.jpg";
 import slider8 from "../../assets/images/homepagesliderimages/slider8.jpg";
 import Home from "../../assets/images/homepagesliderimages/Home.webp";
-import { useCountUp } from "../../hooks/usecountup/useCountUp";
-import fishline1 from "../../assets/images/fishes line/fishline1.jpg";
-import fishline2 from "../../assets/images/fishes line/fishline2.jpg";
-import fishline3 from "../../assets/images/fishes line/fishline3.jpg";
-import fishline4 from "../../assets/images/fishes line/fishline4.jpg";
-import fishline5 from "../../assets/images/fishes line/fishline5.jpg";
-import fishline6 from "../../assets/images/fishes line/fishline6.jpg";
 
 const HomePage = () => {
   useEffect(() => {

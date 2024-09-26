@@ -48,9 +48,7 @@ import darkgreentetra from "./assets/images/productspage/ornamental fish/tetra/d
 import electricgreenglowtetra from "./assets/images/productspage/ornamental fish/tetra/electricgreenglowtetra.jpg";
 import redglowtetra from "./assets/images/productspage/ornamental fish/tetra/redglowtetra.jpg";
 import yellowglowtetra from "./assets/images/productspage/ornamental fish/tetra/yellowglowtetra.jpg";
-import anubiasbarteri from "./assets/images/productspage/aquatic plants/anubiasbarteri.webp";
-import rotellaaquaticplant from "./assets/images/productspage/aquatic plants/rotellaaquaticplant.webp";
-import staurogynerepense from "./assets/images/productspage/aquatic plants/staurogynerepense.jpg";
+import alternantherareineckiipink from "./assets/images/productspage/aquaticplants/alternantherareineckiipink.jpg";
 import butterflybetta from "./assets/images/productspage/ornamental fish/betta/butterflybetta.webp";
 import bycoloursbetta from "./assets/images/productspage/ornamental fish/betta/bycoloursbetta.png";
 import marblebetta from "./assets/images/productspage/ornamental fish/betta/marblebetta.webp";
@@ -70,8 +68,86 @@ import kahakukoi from "./assets/images/productspage/ornamental fish/koicarp/koha
 import koromokoi from "./assets/images/productspage/ornamental fish/koicarp/Koromo Koi.jpeg";
 import showasanshokukoi from "./assets/images/productspage/ornamental fish/koicarp/Showa Sanshoku Koi.jpg";
 import tanchokoi from "./assets/images/productspage/ornamental fish/koicarp/tancho koi.jpg";
+import amazonfrogbit from "./assets/images/productspage/aquaticplants/amazonfrogbit.jpg";
+import anubiasbarteri from "./assets/images/productspage/aquaticplants/anubiasbarteri.jpg";
+import anubiascoffeefolia from "./assets/images/productspage/aquaticplants/anubiascoffeefolia.jpg";
+import bacopacaroliana from "./assets/images/productspage/aquaticplants/bacopacaroliana.jpg";
+import bacopamyriophylloides from "./assets/images/productspage/aquaticplants/bacopamyriophylloides.jpg";
+import blyxajaponica from "./assets/images/productspage/aquaticplants/blyxajaponica.jpg";
+import callicostellaprabaktianamoss from "./assets/images/productspage/aquaticplants/callicostellaprabaktianamoss.jpeg";
+import cryptocoryneparva from "./assets/images/productspage/aquaticplants/cryptocoryneparva.jpeg";
+import echinodorusredchameleon from "./assets/images/productspage/aquaticplants/echinodorusredchameleon.jpeg";
+import echinodorusbleher from "./assets/images/productspage/aquaticplants/echinodorusbleher.jpeg";
+import echinodorusosirisrubra from "./assets/images/productspage/aquaticplants/echinodorusosirisrubra.jpeg";
+import amazonsoil3l from "./assets/images/productspage/products/Aquariumsoilandsubstrates/amazonsoil3L.webp";
+import aptjazzroottab from "./assets/images/productspage/products/Aquariumsoilandsubstrates/APT JAZZ - Root Tab.webp";
+import dymaxsoil from "./assets/images/productspage/products/Aquariumsoilandsubstrates/Dymax Soil.webp";
+import jblproflorarootball from "./assets/images/productspage/products/Aquariumsoilandsubstrates/JBL ProFlora Root Ball.webp";
+import mastersoilnormal from "./assets/images/productspage/products/Aquariumsoilandsubstrates/Master Soil Normal.webp";
+import mastersoilsuperpowder from "./assets/images/productspage/products/Aquariumsoilandsubstrates/Master Soil Super Powder.webp";
+import planatopiamayapowdersand from "./assets/images/productspage/products/Aquariumsoilandsubstrates/Planatopia Maya Powder sand.webp";
+import planatopiaroottabs from "./assets/images/productspage/products/Aquariumsoilandsubstrates/Planatopia Root Tabs.webp";
+import planatopiaroots from "./assets/images/productspage/products/Aquariumsoilandsubstrates/Planatopia Roots.webp";
+import planatopiasoilpowder from "./assets/images/productspage/products/Aquariumsoilandsubstrates/Planatopia Soil Powder.webp";
+import planatopiasoil from "./assets/images/productspage/products/Aquariumsoilandsubstrates/Planatopia Soil.webp";
+import planatopiaultraclear from "./assets/images/productspage/products/Aquariumsoilandsubstrates/Planatopia Ultra Clear.webp";
+import platinumsoil3l from "./assets/images/productspage/products/Aquariumsoilandsubstrates/Platinum Soil 3L.webp";
+import algaestop90 from "./assets/images/productspage/products/fertilizersandtreatments/Algae STOP 90.webp";
+import aptcompletefertilizer from "./assets/images/productspage/products/fertilizersandtreatments/APT Complete Fertilizer.webp";
+import aptefertilizer from "./assets/images/productspage/products/fertilizersandtreatments/APT e Fertilizer.webp";
+import aptfixlite from "./assets/images/productspage/products/fertilizersandtreatments/APT Fix Lite.webp";
+import aptfix from "./assets/images/productspage/products/fertilizersandtreatments/APT Fix.webp";
+import aptsky from "./assets/images/productspage/products/fertilizersandtreatments/APT SKY.webp";
+import aptzerofertilizer from "./assets/images/productspage/products/fertilizersandtreatments/APT Zero Fertilizer.webp";
+import azoocarbonplus from "./assets/images/productspage/products/fertilizersandtreatments/AZOO Carbon Plus.webp";
+import azooplantpremium from "./assets/images/productspage/products/fertilizersandtreatments/AZOO Plant Premium.webp";
+import planatopiaultrafertilizer from "./assets/images/productspage/products/fertilizersandtreatments/Planatopia Ultra Fertilizer.webp";
+import uniqueaquabiofertilizer from "./assets/images/productspage/products/fertilizersandtreatments/UNIQUE AQUA Bio Fertilizer.webp";
+import bacteriahouseceramicbar from "./assets/images/productspage/products/Filtersandfiltermedia/Bacteria House Ceramic Bar.webp";
+import blackspongesheet from "./assets/images/productspage/products/Filtersandfiltermedia/Black Sponge Sheet.webp";
+import boyuactivecarbon from "./assets/images/productspage/products/Filtersandfiltermedia/BOYU Active Carbon.webp";
+import boyudgn120acanisterfilter from "./assets/images/productspage/products/Filtersandfiltermedia/BOYU DGN-120A Canister Filter.webp";
+import boyuuf230upperfilter from "./assets/images/productspage/products/Filtersandfiltermedia/BOYU UF-230 Upper Filter.webp";
+import boyuwf2015filter from "./assets/images/productspage/products/Filtersandfiltermedia/BOYU WF-2015 Filter.webp";
+import boyuwf2045filter from "./assets/images/productspage/products/Filtersandfiltermedia/BOYU WF-2045 Filter.webp";
+import apexfishfood from "./assets/images/productspage/products/fishseed/APEX Fish Food.webp";
+import hikarialgaewafer from "./assets/images/productspage/products/fishseed/Hikari Algae Wafer.webp";
+import hikaricichlidbiogold from "./assets/images/productspage/products/fishseed/Hikari Cichlid Bio-Gold.webp";
+import hikaridiscussbiogold from "./assets/images/productspage/products/fishseed/Hikari Discuss Bio Gold.webp";
+import hikarimicropellets from "./assets/images/productspage/products/fishseed/Hikari Micro Pellets.webp";
+import hikarimicrowafers from "./assets/images/productspage/products/fishseed/Hikari Micro Wafers.webp";
+import hikarishrimpcuisine from "./assets/images/productspage/products/fishseed/Hikari Shrimp Cuisine.webp";
+import hikarisinkingcarnivorepellets from "./assets/images/productspage/products/fishseed/Hikari Sinking Carnivore Pellets.webp";
+import hikarisinkingwafer from "./assets/images/productspage/products/fishseed/Hikari Sinking wafer.webp";
+import hikarivibrabites from "./assets/images/productspage/products/fishseed/Hikari Vibra Bites.webp";
+import hikarifoodstick57g from "./assets/images/productspage/products/fishseed/Hikari-Food-Stick-57g.webp";
+import planatopianeobits from "./assets/images/productspage/products/fishseed/Planatopia Neobits.webp";
+import planatopianutriBites from "./assets/images/productspage/products/fishseed/Planatopia NutriBites.webp";
+import planatopianutriBits from "./assets/images/productspage/products/fishseed/Planatopia NutriBits.webp";
+import planatopianutrigold from "./assets/images/productspage/products/fishseed/Planatopia NutriGold.webp";
+import planatopiashrimpfeast from "./assets/images/productspage/products/fishseed/Planatopia Shrimp Feast.webp";
+import ultrafreshcarnvorusjumbosticks from "./assets/images/productspage/products/fishseed/Ultra Fresh Carnvorus jumbo sticks.webp";
+import ultrafreshroyalcichlidpremium from "./assets/images/productspage/products/fishseed/Ultra Fresh Royal cichlid premium.webp";
+import ultrafreshtropicalexellentbites from "./assets/images/productspage/products/fishseed/Ultra Fresh Tropical Exellent bites.webp";
+import ultrafreshtropicalmicropellets from "./assets/images/productspage/products/fishseed/Ultra Fresh Tropical micro pellets.webp";
+import ammoniatestkit from "./assets/images/productspage/products/watertreatmentandmedicine/Ammonia Test Kit.webp";
+import antichlorine from "./assets/images/productspage/products/watertreatmentandmedicine/Anti Chlorine.webp";
+import aquariumsalt from "./assets/images/productspage/products/watertreatmentandmedicine/Aquarium Salt.webp";
+import azooclorineremover from "./assets/images/productspage/products/watertreatmentandmedicine/AZOO Clorine Remover.webp";
+import azooplusvitamins from "./assets/images/productspage/products/watertreatmentandmedicine/Azoo Plus Vitamins.webp";
+import hardnesstestkit from "./assets/images/productspage/products/watertreatmentandmedicine/Hardness Test Kit.webp";
+import methylenebluefishcare from "./assets/images/productspage/products/watertreatmentandmedicine/Methylene Blue Fish Care.webp";
+import miniwatertestkit from "./assets/images/productspage/products/watertreatmentandmedicine/Mini water test kit.webp";
+import nitratetestkit from "./assets/images/productspage/products/watertreatmentandmedicine/Nitrate Test Kit.webp";
+import ntlabantiwhitespotfungus from "./assets/images/productspage/products/watertreatmentandmedicine/NT Lab Anti-White Spot & Fungus.webp";
+import ntlabflukeandwormer from "./assets/images/productspage/products/watertreatmentandmedicine/NT Lab Fluke and Wormer.webp";
+import phbroadtestkit from "./assets/images/productspage/products/watertreatmentandmedicine/pH broad test kit.webp";
 
 export const productImages = {
+  phbroadtestkit: phbroadtestkit,
+  ntlabantiwhitespotfungus: ntlabantiwhitespotfungus,
+  nitratetestkit: nitratetestkit,
+  miniwatertestkit: miniwatertestkit,
   bigheadcarpfingerlings: bigheadcarpfingerlings,
   grasscarpfingerlings: grasscarpfingerlings,
   silvercarpfingerlings: silvercarpfingerlings,
@@ -122,9 +198,6 @@ export const productImages = {
   electricgreenglowtetra: electricgreenglowtetra,
   redglowtetra: redglowtetra,
   yellowglowtetra: yellowglowtetra,
-  anubiasbarteri: anubiasbarteri,
-  rotellaaquaticplant: rotellaaquaticplant,
-  staurogynerepense: staurogynerepense,
   butterflybetta: butterflybetta,
   bycoloursbetta: bycoloursbetta,
   marblebetta: marblebetta,
@@ -144,4 +217,75 @@ export const productImages = {
   koromokoi: koromokoi,
   showasanshokukoi: showasanshokukoi,
   tanchokoi: tanchokoi,
+  alternantherareineckiipink: alternantherareineckiipink,
+  amazonfrogbit: amazonfrogbit,
+  anubiasbarteri: anubiasbarteri,
+  anubiascoffeefolia: anubiascoffeefolia,
+  bacopacaroliana: bacopacaroliana,
+  bacopamyriophylloides: bacopamyriophylloides,
+  blyxajaponica: blyxajaponica,
+  callicostellaprabaktianamoss: callicostellaprabaktianamoss,
+  cryptocoryneparva: cryptocoryneparva,
+  echinodorusredchameleon: echinodorusredchameleon,
+  echinodorusbleher: echinodorusbleher,
+  echinodorusosirisrubra: echinodorusosirisrubra,
+  amazonsoil3l: amazonsoil3l,
+  aptjazzroottab: aptjazzroottab,
+  dymaxsoil: dymaxsoil,
+  jblproflorarootball: jblproflorarootball,
+  mastersoilnormal: mastersoilnormal,
+  mastersoilsuperpowder: mastersoilsuperpowder,
+  planatopiamayapowdersand: planatopiamayapowdersand,
+  planatopiaroottabs: planatopiaroottabs,
+  planatopiaroots: planatopiaroots,
+  planatopiasoilpowder: planatopiasoilpowder,
+  planatopiasoil: planatopiasoil,
+  planatopiaultraclear: planatopiaultraclear,
+  platinumsoil3l: platinumsoil3l,
+  algaestop90: algaestop90,
+  aptcompletefertilizer: aptcompletefertilizer,
+  aptefertilizer: aptefertilizer,
+  aptfixlite: aptfixlite,
+  aptfix: aptfix,
+  aptsky: aptsky,
+  aptzerofertilizer: aptzerofertilizer,
+  azoocarbonplus: azoocarbonplus,
+  azooplantpremium: azooplantpremium,
+  planatopiaultrafertilizer: planatopiaultrafertilizer,
+  uniqueaquabiofertilizer: uniqueaquabiofertilizer,
+  bacteriahouseceramicbar: bacteriahouseceramicbar,
+  blackspongesheet: blackspongesheet,
+  boyuactivecarbon: boyuactivecarbon,
+  boyudgn120acanisterfilter: boyudgn120acanisterfilter,
+  boyuuf230upperfilter: boyuuf230upperfilter,
+  boyuwf2015filter: boyuwf2015filter,
+  boyuwf2045filter: boyuwf2045filter,
+  apexfishfood: apexfishfood,
+  hikarialgaewafer: hikarialgaewafer,
+  hikaricichlidbiogold: hikaricichlidbiogold,
+  hikaridiscussbiogold: hikaridiscussbiogold,
+  hikarimicropellets: hikarimicropellets,
+  hikarimicrowafers: hikarimicrowafers,
+  hikarishrimpcuisine: hikarishrimpcuisine,
+  hikarisinkingcarnivorepellets: hikarisinkingcarnivorepellets,
+  hikarisinkingwafer: hikarisinkingwafer,
+  hikarivibrabites: hikarivibrabites,
+  hikarifoodstick57g: hikarifoodstick57g,
+  planatopianeobits: planatopianeobits,
+  planatopianutriBites: planatopianutriBites,
+  planatopianutriBits: planatopianutriBits,
+  planatopianutrigold: planatopianutrigold,
+  planatopiashrimpfeast: planatopiashrimpfeast,
+  ultrafreshcarnvorusjumbosticks: ultrafreshcarnvorusjumbosticks,
+  ultrafreshroyalcichlidpremium: ultrafreshroyalcichlidpremium,
+  ultrafreshtropicalexellentbites: ultrafreshtropicalexellentbites,
+  ultrafreshtropicalmicropellets: ultrafreshtropicalmicropellets,
+  ammoniatestkit: ammoniatestkit,
+  antichlorine: antichlorine,
+  aquariumsalt: aquariumsalt,
+  azooclorineremover: azooclorineremover,
+  azooplusvitamins: azooplusvitamins,
+  hardnesstestkit: hardnesstestkit,
+  methylenebluefishcare: methylenebluefishcare,
+  ntlabflukeandwormer: ntlabflukeandwormer,
 };

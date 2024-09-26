@@ -1,12 +1,13 @@
 import React, { useState } from "react";
 import { useSpring, animated } from "@react-spring/web";
 import "./contactpage.css";
+import emailjs from "emailjs-com";
 
 const ContactPage = () => {
   const [formSubmitted, setFormSubmitted] = useState(false);
   const [formData, setFormData] = useState({
-    name: "",
-    email: "",
+    fromName: "",
+    fromEmail: "",
     message: "",
   });
 
@@ -16,7 +17,25 @@ const ContactPage = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    setFormSubmitted(true);
+    emailjs
+      .sendForm(
+        "service_hc596bg", // Replace with your EmailJS service ID
+        "template_6m01auj", // Replace with your EmailJS template ID
+        e.target, // Form element
+        "PzaEu44muYBXOf0to" // Replace with your EmailJS user ID
+      )
+      .then(
+        (result) => {
+          console.log(result.text);
+          alert("Email sent successfully!");
+          setFormSubmitted(true);
+          setFormData({ name: "", email: "", message: "" });
+        },
+        (error) => {
+          console.log(error.text);
+          alert("Failed to send email.");
+        }
+      );
     // Add form submission logic here
   };
 
@@ -32,12 +51,6 @@ const ContactPage = () => {
     delay: 200,
   });
 
-  const mapAnimation = useSpring({
-    opacity: 1,
-    transform: "scale(1)",
-    from: { opacity: 0, transform: "scale(0.9)" },
-    delay: 300,
-  });
   const fadeIn = useSpring({
     from: { opacity: 0 },
     to: { opacity: 1 },
