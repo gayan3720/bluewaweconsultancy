@@ -250,11 +250,6 @@ const ProductsPage = () => {
       category: "Fertilizers & Treatments",
     },
     {
-      id: 103,
-      name: "APT SKY",
-      category: "Fertilizers & Treatments",
-    },
-    {
       id: 104,
       name: "APT Zero Fertilizer",
       category: "Fertilizers & Treatments",
